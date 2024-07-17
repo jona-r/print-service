@@ -1,4 +1,4 @@
-FROM node:8.11.2-stretch as build
+FROM node:20.15.1-bookworm as build
 MAINTAINER "Mahesh Kumar Gangula" "mahesh@ilimi.in"
 USER root
 COPY src /opt/print-service/
